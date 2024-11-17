@@ -2,8 +2,6 @@
 Script for retrieving molecule from PubChem and drawing it using networkX
 """
 
-breakpoint()
-
 import networkx as nx
 import matplotlib.pyplot as plt
 
