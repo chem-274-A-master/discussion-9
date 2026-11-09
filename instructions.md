@@ -112,6 +112,12 @@ make gdb
 ./gdb_debugging/closest_pair data/check.xyz
 ```
 
+Look at the compilation command printed by `make gdb`.
+
+1. Which flag includes debugging information in the executable? What does that information allow GDB to show you?
+2. Which flag disables compiler optimization? Why might optimization make stepping through source code and inspecting variables harder?
+3. After editing the `.cpp` file, why must you compile again before debugging?
+
 The Makefile uses `-g` to include debugging information and `-O0` to disable compiler optimization for this exercise. Record the termination message.
 
 ### Investigate in GDB
