@@ -169,13 +169,6 @@ cython_debug/
 
 # Exercise binaries and generated output
 /gdb_debugging/closest_pair
-/profiling/distances_before
-/profiling/distances_after
-/profiling/before_release
-/profiling/after_release
-/profiling/*.txt
-/profiling/*gmon.out
-/gmon.out
 /core
 /core.*
 /*.png
