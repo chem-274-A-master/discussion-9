@@ -118,8 +118,6 @@ Look at the compilation command printed by `make gdb`.
 2. Which flag disables compiler optimization? Why might optimization make stepping through source code and inspecting variables harder?
 3. After editing the `.cpp` file, why must you compile again before debugging?
 
-The Makefile uses `-g` to include debugging information and `-O0` to disable compiler optimization for this exercise. Record the termination message.
-
 ### Investigate in GDB
 
 ```bash
@@ -134,7 +132,7 @@ First, start the program:
 run
 ```
 
-If you see the following prompt, answer **n** and press Enter. Your executable already includes debugging information from `-g`; downloading system-library debugging information is not required for this exercise.
+If you see the following prompt, answer **n** and press Enter. Your executable should already include debugging information; downloading system-library debugging information is not required for this exercise.
 
 ```text
 This GDB supports auto-downloading debuginfo from the following URLs:
